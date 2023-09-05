@@ -185,3 +185,83 @@ Now for the Image click Windows 10 pro version and the size click Standard E2
 Next for the username type labuser and the password the same as DC-1 VM. Then click the Licensing tab then click review and create 
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b5335eee-d6c4-4d58-ae9e-5c4896c93117"/>
+</p>
+<p>
+Now the deployment will be done when a green check appears next to the deployment
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/8cf04195-6679-428e-a77f-06899ae7dc06"/>
+</p>
+<p>
+Next type virtual machines in the search bar 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/f0ed0801-4d05-4531-96e9-054f6d9d1800"/>
+</p>
+<p>
+Next you will see that DC-1 and Cilent-1 was created 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/0f5791a0-296f-40a0-9d8d-4dd40f783b0c"/>
+</p>
+<p>
+Now click DC-1 and click networkng 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/667a5e43-913b-4276-9f10-d2fff584106b"/>
+</p>
+<p>
+Next click on the Network Interface 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/6217f4e0-7135-4bcb-8605-cd54b8b86943"/>
+</p>
+<p>
+Next click on IP Configurations 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/5de5cb97-2158-411d-9b7f-51363d08152b"/>
+</p>
+<p>
+Now click ipconfig1
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/3f192efc-718d-42e4-bdf1-086e76260773"/>
+</p>
+<p>
+We are editing the IP Configurations in the allocation section click Static instead of Dynamic then click save.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/0bc6094c-bb28-41e7-91ee-bdc940843048"/>
+</p>
+<p>
+Now we are going to log into Cilent-1 VM copy the public IP address
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/7cee9a52-24e3-4a47-b743-fda018088b52"/>
+</p>
+<p>
+Next type Remote Desktop Connection and click to open the app
+</p>
+<br />
