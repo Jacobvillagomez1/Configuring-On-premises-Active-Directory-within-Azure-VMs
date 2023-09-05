@@ -814,3 +814,158 @@ Next open command prompt then type whoami you will see we are still under labuse
 Go back to Azure and click DC-1 and copy the Public IP
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/e8e29ad0-2aa7-4b18-8f2a-a582e23980f6"/>
+</p>
+<p>
+Next type Remote Desktop Connection and open the app
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/7d700907-3cc5-431b-98f0-a37d65e1b3ec"/>
+</p>
+<p>
+Next paste DC-1 VM public IP then click connect 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/5f10add9-bf30-4aa7-81ab-d83b1000d0b2"/>
+</p>
+<p>
+Next click more choices then click use a different account
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9c0046b0-84ef-47c0-a14f-1337cac6fdeb"/>
+</p>
+<p>
+Next type mydomain.com\jane_admin in the username then the password is still Passsword1 then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/08c70bdd-4da0-414e-be79-d51b57e51b9e"/>
+</p>
+<p>
+Next click yes to log into DC-1 VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/2b3e72ea-0ceb-453a-8012-d66c78df24c8"/>
+</p>
+<p>
+DC-1 VM should load and you will see the name jane doe.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/e1872b43-6a00-4378-895a-ef730ced9b33"/>
+</p>
+<p>
+Open command line then type whoami and you will see you are logged in as jane_admin 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/991eb684-0118-4420-b7d8-46c8c5b62477"/>
+</p>
+<p>
+Next right click the windows icon on the bottom left then click the system file 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/ca7edc7e-f5a5-4e71-9271-95a201e7bde7"/>
+</p>
+<p>
+Now click Rename this PC (advanced)
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/167d7c20-efb0-4122-b11b-9e0537d4b2b7"/>
+</p>
+<p>
+Next click change 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/09893ccd-1680-437c-87e2-ddcfe9aa58d4"/>
+</p>
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b149e245-84ee-4bf8-8a37-c8b48eefa62e"/>
+</p>
+<p>
+Next click member of and click the domain circle, then type domain.com then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/fcdd96ce-0d3b-4e59-919b-9c0fa77da602"/>
+</p>
+<p>
+Now you will see an error displyed on the screen click ok this is because we have to change the NIC in azure for Cilent-1
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/1dc42180-09dc-4ea2-a91e-ee0533ec444a"/>
+</p>
+<p>
+Now go to the Azure portal and go to Virtual Machine then click DC-1, copy the NIC Private IP
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/c56d3f3c-21ea-4519-bbd1-54138e525937"/>
+</p>
+<p>
+Next click Cilent-1 and go to Network Interface and click on cilent 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/d441f8cb-4e31-46e1-b26f-73320b72ed2b"/>
+</p>
+<p>
+Next click DNS servers then click custom 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/940c1feb-2931-4d21-9a39-313d1dd21af7"/>
+</p>
+<p>
+Now paste the NIC Private IP of DC-1 then click save 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/320e0df8-7201-47b9-8416-e845374097ac"/>
+</p>
+<p>
+Next let the process change the NIC
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/cb2f13af-e7ea-4643-8356-9e5ebd18eeb3"/>
+</p>
+<p>
+Once its done you will see a green check you can click the bell icon to see the prcess load 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/48480f92-8917-4975-9a22-81918bac31cb"/>
+</p>
+<p>
+Next go back to Virtual Machine adn click restart then click yes to restart Cilent-1 VM
+</p>
+<br />
