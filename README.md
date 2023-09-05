@@ -517,3 +517,11 @@ Next let the installation process start
 Once the process finishes click close 
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/fcf1593b-917c-4d7b-9f44-381e937562e6"/>
+</p>
+<p>
+Next click the caution symbol near manage on the top right 
+</p>
+<br />ds
