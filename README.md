@@ -702,3 +702,115 @@ Now go back to mydomain.com and right click anywhere again, go to new then to or
 Next type ADMINS then click ok 
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/43d15d55-415b-4fee-b2ad-36282f6704bc"/>
+</p>
+<p>
+In ADMINS right click then go to new then to user
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/5ecc8a96-b727-41fa-a0bf-0c41169302d4"/>
+</p>
+<p>
+For the first name type jane and the intials can be doe or the last name can be doe. For the user logon name type jane_admin then click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/74600f4d-1c15-438b-8364-b4d81b28df2d"/>
+</p>
+<p>
+Next for the password type Password1 then uncheck user must change password at next login  
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/406d7077-f41f-4503-8e0f-5ecf613a367e"/>
+</p>
+<p>
+Next check the box for Password never expires then click next
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9e6cc56e-cebc-4e35-a847-f869bae00e60"/>
+</p>
+<p>
+Then finish to create the user 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/49a3edab-3467-48d3-857f-f62363bb08ef"/>
+</p>
+<p>
+Now you should see jane doe account in the ADMINS folder if not right click then go to refresh 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/d1fda67c-04db-4a7d-a961-56175140c792"/>
+</p>
+<p>
+Next right click the account and go to properties 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/91b3bde9-8ee8-4d35-b5fa-190dc8850201"/>
+</p>
+<p>
+Next the member of tab then click add 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/43587478-a918-4390-9c7a-a41ad4a8c0b6"/>
+</p>
+<p>
+Next in the enter section type domain then click check names 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9db1856c-35a1-4321-b1e5-f3ab287927e1"/>
+</p>
+<p>
+Next double click on Domain Admins then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b0b4fa87-f1a4-4199-938d-cf7359b4e7eb"/>
+</p>
+<p>
+Then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/08e5dea4-a552-4c81-aa08-bfc48793c0cd"/>
+</p>
+<p>
+Then click apply to finish 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/6fa7ba5c-4236-4e03-9f61-7619eb62df9e"/>
+</p>
+<p>
+Next open command prompt then type whoami you will see we are still under labuser and not jane doe next type logoff 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/702a31f2-03ee-4e18-9701-8981a64ba60c"/>
+</p>
+<p>
+Go back to Azure and click DC-1 and copy the Public IP
+</p>
+<br />
