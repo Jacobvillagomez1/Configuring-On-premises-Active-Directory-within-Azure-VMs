@@ -265,3 +265,159 @@ Now we are going to log into Cilent-1 VM copy the public IP address
 Next type Remote Desktop Connection and click to open the app
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/8fb28bb8-9e13-4115-8900-2cf8a338ca3b"/>
+</p>
+<p>
+Next paste the IP of Cilent-1 in the computer section 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/56423833-9ca1-4e30-bdde-24c5508c152d"/>
+</p>
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/714f1e25-9e0b-431f-8d73-1da1908ee50e"/>
+</p>
+<p>
+Now tpye for the username type labuser and the password type the password you made for the VM, then click ok
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/06d7c39a-e864-4cfe-9905-a7121d9d2457"/>
+</p>
+<p>
+Next click yes to open the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9f693248-c914-46ab-aa8e-80bed6da0a67"/>
+</p>
+<p>
+Now you should see the VM loading under the name labuser 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/c70b82b7-4382-47ae-ae0e-d782e8dc8a31"/>
+</p>
+<p>
+Next click no to the following image above 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b085de07-1e8f-45ff-b7d6-88412bb08c5d"/>
+</p>
+<p>
+Once networks load click yes 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/8b6d5ae6-5c7d-44e4-a20c-05647d3a9a85"/>
+</p>
+<p>
+Now open up command prompt 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/2b4973a6-77b0-4bae-9a9b-d1f225fe96d4"/>
+</p>
+<p>
+Next go back to Azure and copy the Private IP of DC-1
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/32f7e581-f58d-4483-8743-b067b24a708f"/>
+</p>
+<p>
+Go back to Cilent-1 VM and type ping -t the the private IP of DC-1. We are doing a endless ping to see the traffic 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/55e8a294-7e44-44ad-9824-1a41a465ea68"/>
+</p>
+<p>
+Then go to Azure and grab the Public IP of DC-1 VM then load Remote Desktop Connection and open the app  
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/4583ff7e-e4c9-4eb5-88be-fc3c4c4f9995"/>
+</p>
+<p>
+Paste the IP of DC-1 in the computer section then click connect 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/dc52a45a-6782-4d7b-8180-214ce6158c52"/>
+</p>
+<p>
+Next type the username labuser and the password you made for DC-1 VM then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/1b17a0c4-24af-4d5a-b4e8-15c9408a123f"/>
+</p>
+<p>
+Next click yes to log into the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/36f616fd-8423-4235-a9e2-da570f213cf3"/>
+</p>
+<p>
+Once the VM loads let Server Manager load as well. Next once networks load click yes 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/a23e9065-4bde-41be-976a-a044e726775d"/>
+</p>
+<p>
+Next type wf.msc in the search bar of DC-1 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/32520177-a2ef-4f9e-8d4d-9c193d8e8baa"/>
+</p>
+<p>
+Next click on Inbound Rules 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b27bb6cc-7d6a-493b-8079-b38d1ee2f302"/>
+</p>
+<p>
+Next click the protocol, then look for ICMPv4 protcol
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/6d53aec3-cff6-4b4d-9363-b9040e8577bb"/>
+</p>
+<p>
+Next right click then enable rule for the following in the image above 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/660351d4-7b2b-472e-b355-12f21025cc9e"/>
+</p>
+<p>
+Go back to Cilent-1 VM and you wil see the constant pinging click Ctrl + C then go back to the directory
+</p>
+<br />
