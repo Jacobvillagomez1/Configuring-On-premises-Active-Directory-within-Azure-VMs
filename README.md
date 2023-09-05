@@ -421,3 +421,99 @@ Next right click then enable rule for the following in the image above
 Go back to Cilent-1 VM and you wil see the constant pinging click Ctrl + C then go back to the directory
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/a885a1a1-7ae2-4eac-bb37-66ee8bb7a36b"/>
+</p>
+<p>
+Next go to DC-1 and click add roles and features 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/099486a7-ce1f-4732-b82b-add2bf2fcdb4"/>
+</p>
+<p>
+Click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/75a51ee8-5dd7-4805-8f84-42a1d0191e06"/>
+</p>
+<p>
+Click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b88aa771-41fb-4283-af7f-d75a598b6bba"/>
+</p>
+<p>
+Click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/3c5e8364-49fd-4a87-91c2-46563e4efb1e"/>
+</p>
+<p>
+Click the box for Active Directory Domain Services 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/5cfef78a-1dc7-4f99-a8dc-88831af6e9c7"/>
+</p>
+<p>
+Click the add features 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/a904d8e1-623f-4df7-adeb-007268c39667"/>
+</p>
+<p>
+Click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/8dce276a-20ca-4919-a1b7-bad2b1f4e1d2"/>
+</p>
+<p>
+Click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/984ab1ef-fb8b-4c3b-b05c-095b5d3ddcca"/>
+</p>
+<p>
+Click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/2696ccd0-c159-48bd-ba14-077cf9e40b64"/>
+</p>
+<p>
+Click Install 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/108624e0-9e54-476f-9c69-ab78f1ce4ed4"/>
+</p>
+<p>
+Next let the installation process start
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/567aa4b3-d65a-4dac-9151-87c2d9f72e71"/>
+</p>
+<p>
+Once the process finishes click close 
+</p>
+<br />
