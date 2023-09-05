@@ -1233,3 +1233,238 @@ Next click ok
 Another way to get to Users and Computers is to click the windows icon on the bottom left. Next click Windows Administrative Tools then click Active Directory Users and Computers
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/8d0091c5-b02b-48c1-94fb-8df23a4f8f01"/>
+</p>
+<p>
+Next click users then click Domain Users
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/4fc4f2f5-d1d6-43b5-b4fb-982249ecdb8e"/>
+</p>
+<p>
+Now you will see jane doe and labuser are under the Domain Users
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/f00e2f1b-0b58-4ff2-a436-d7a84178cab3"/>
+</p>
+<p>
+Next type Windows Powershell ISE right click and run as administrator
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/52731396-42b2-4752-80a3-65fa335d9b64"/>
+</p>
+<p>
+Now click yes to run the software 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/4e1022f8-6bd3-44d2-9b44-eee5d0883904"/>
+</p>
+<p>
+Click file then click new 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/d3281cb9-e79d-4f93-8a18-7bdb24f3fbf2"/>
+</p>
+<p>
+Go to the Link and copy the code this code will create 2000 users https://github.com/Jacobvillagomez1/Generate-Names-Create-Users.ps1/blob/main/README.md
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/3206dc71-8055-419f-b903-e807c7b92ca8"/>
+</p>
+<p>
+Now paste the code in the white blank page section 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/526b4bd7-d087-4be2-ba06-e5e000c79cb1"/>
+</p>
+<p>
+Now click the green play icon to run the script 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/0899eab8-7d9a-4c5c-b4e2-700f827fa5db"/>
+</p>
+<p>
+Now in the blue section you will see the 2000 users being created in a ligth blue color 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/850e7ff4-196d-4a84-b359-a3565bbf9651"/>
+</p>
+<p>
+Next click on the _EMPLOYEES folder then right click and click refresh 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/3d794795-61d7-4b97-b2c7-8a6ff1283ccb"/>
+</p>
+<p>
+Now you will see the current users that have been created 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/937a3c25-6aee-4bf4-bc18-0100f4f2442a"/>
+</p>
+<p>
+Next go to Cilent-1 open up the command line then type logoff, then press enter 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/d62f1456-4352-4ce0-9d78-a574356f218d"/>
+</p>
+<p>
+Now that we logged out of Cilent-1 we are going to go to DC-1 VM and pick a user then copy the display name. 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/92106042-1475-4cb6-aafb-34b80df93203"/>
+</p>
+<p>
+Open up your notepad and paste or type the display name of the account you want to log into  
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/db198ef9-536f-4a39-b9a2-5baf68143dc4"/>
+</p>
+<p>
+Now type Remote Desktop Connection and open the app
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/0b5b7ff7-afce-42a4-8058-4fe3aff29ba8"/>
+</p>
+<p>
+Next paste the public IP of Cilent-1 VM then click connect
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/075247fe-f3ea-49b9-8109-64249c551e44"/>
+</p>
+<p>
+Next click more choices and click use a different account 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/809a2320-5074-46da-a0e6-7ce3e6984b1e"/>
+</p>
+<p>
+Now type mydomain.com\ then your username. Next for the password type Password1 refer to the image above then press ok
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/d681a6c7-f783-42d1-be11-baaa5ede25a0"/>
+</p>
+<p>
+Next press yes to connect to the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/38251e25-e471-464f-a9d2-c7f7e1858c3a"/>
+</p>
+<p>
+Now you will see the username display on the screen of the loading screen of Cilent-1 VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/43d5f06e-cac1-436e-bfe0-d93f94b641fd"/>
+</p>
+<p>
+Open commandline and type whoami and you will see we are logged in as the user you picked. Type hostname and you will see you are still under Cilent-1 then type logoff 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/f83f4694-e231-473f-9e34-8741b13b0a2e"/>
+</p>
+<p>
+Go back to DC-1 VM and pick another user, then copy the display name 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/a0857ddd-8fcd-4bad-8a24-a712a754db5d"/>
+</p>
+<p>
+Type Remote Desktop Connection and load the app 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/4d1f40ee-b93e-4741-83a1-68fceac33c77"/>
+</p>
+<p>
+Next paste the Public IP of Cilent-1 then click connect 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/66242ef0-4145-454b-a85e-cc5a253ee98c"/>
+</p>
+<p>
+Click more choices then click use a different account 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/164e4d51-a623-48ee-8983-8a480d4e0829"/>
+</p>
+<p>
+Now type mydomain.com\ then the username, but for the password type the password incorrectly ten times to lock you out of your account refer to the image above 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/63f27065-9e25-42fb-969b-57824e9cff63"/>
+</p>
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/686606a1-4259-41a9-a12d-843ef254a1d1"/>
+</p>
+<p>
+Next go back to DC-1 VM and go to the account tab of the user you picked. Click th box Unlock account then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/8a06ac57-d4bc-4478-8ce2-ee345b4e45e1"/>
+</p>
+<p>
+You can also right click the user you picked and click reset password, or even disable the account 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/39a34abc-ab16-4bb4-a6d7-f668f6662af6"/>
+</p>
+<p>
+Now to see Lab 6 https://github.com/Jacobvillagomez1/Create-Inspect-and-Delete-DNS-A-Records-and-CNAME and Lab 7 https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions 
+</p>
+<br />
