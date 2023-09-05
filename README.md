@@ -1078,7 +1078,7 @@ Now Computer Name / Domain Changes should load on your screen
 <img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b0ef21c9-fb5c-4d48-8b4b-bd6715bc372b"/>
 </p>
 <p>
-Next type mycomain.com\jane_admin then the password is Password1 then click ok 
+Next type mydomain.com\jane_admin then the password is Password1 then click ok 
 </p>
 <br />
 
@@ -1230,7 +1230,7 @@ Next click ok
 <img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9daedf6e-ae64-4cd5-bf3d-95d27e2e0f4e"/>
 </p>
 <p>
-Another way to get to Users and Computers is to click the windows icon on the bottom left. Next click Windows Administrative Tools then click Active Directory Users and Computers
+Go back to DC-1, another way to get to Users and Computers is to click the windows icon on the bottom left. Next click Windows Administrative Tools then click Active Directory Users and Computers
 </p>
 <br />
 
