@@ -969,3 +969,267 @@ Once its done you will see a green check you can click the bell icon to see the 
 Next go back to Virtual Machine adn click restart then click yes to restart Cilent-1 VM
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/e6ad8434-0787-4c5b-93f0-51adf131fd56"/>
+</p>
+<p>
+You can click the bell icon and see the process restart the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/60639df1-158c-49cf-9178-85a4b3fef1fd"/>
+</p>
+<p>
+Once its done you will see a green check mark icon 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/afeca4be-57a5-4fb5-afbf-15b572a4495d"/>
+</p>
+<p>
+Next click Cilent-1 then copy the public IP 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/a89632c4-19c5-4687-88c3-b5fde7acd026"/>
+</p>
+<p>
+Type Remote Desktop Connection and load the app 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/e7db9734-b39f-48d6-8ddd-df988a842c36"/>
+</p>
+<p>
+Next paste the Public IP in the computer section and then click connect 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/4658286d-46a4-407a-b067-6ec97cdb16b0"/>
+</p>
+<p>
+Now type labuser for the username and the original password you made for Cilent-1 then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/4df21922-1a88-49a2-88f6-a6b9c1fd1de4"/>
+</p>
+<p>
+Next press yes to log into the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/32ee1ac3-c0c7-4d4b-8a83-ae2c9e3d3be1"/>
+</p>
+<p>
+Now you will see Cilent-1 VM load under labuser 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/878b7f3d-c799-49c8-9911-15925544646b"/>
+</p>
+<p>
+We are going to do the same process as before right click the windows icon then click on system 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/258597d2-6ac4-41e3-8ef5-b45e44a7ab37"/>
+</p>
+<p>
+Next click Rename this PC (advanced)
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/6d5b289e-811b-4a1e-bfc3-a1cf01118036"/>
+</p>
+<p>
+Now click change 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b80a520f-fde4-4826-9ebc-c7ab1d78faec"/>
+</p>
+<p>
+Now click domain and type mydomain.com then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/ebd2a07f-2250-4a7f-a7a8-cefe6c867cca"/>
+</p>
+<p>
+Now Computer Name / Domain Changes should load on your screen 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b0ef21c9-fb5c-4d48-8b4b-bd6715bc372b"/>
+</p>
+<p>
+Next type mycomain.com\jane_admin then the password is Password1 then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9d50d6f6-eb5a-464a-8b81-4f3fa4ae482e"/>
+</p>
+<p>
+You will see the VM is trying to reconnect dont click cancel let the bandwidth conenct back to the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/257c9513-176f-4a61-953d-5117e3c0a1c7"/>
+</p>
+<p>
+Next you will see a Please wait page 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/f0fd0c40-631a-4cc2-abcd-46a6891be72b"/>
+</p>
+<p>
+Close out of everything, but you wil see a tab that says You must restart your computer to apply these changes then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/eca341c4-0cd2-4648-afd3-76a1dd18c603"/>
+</p>
+<p>
+Then click Restart Now to restart the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/79dac041-0092-49d6-b7ac-6d65e855b887"/>
+</p>
+<p>
+Next you will see a Restarting Screen load 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/f014446b-69f3-4b2a-8e94-29566fd6b64a"/>
+</p>
+<p>
+It will kick you out of Cilent-1 VM now go back to get the Public IP then type Remote Desktop Connection and open the app 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/18513efd-bad4-4501-9805-fbad9aff8315"/>
+</p>
+<p>
+Next paste the public IP in the computer section then click connect 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/979b19d5-09c7-40c9-8a0f-5e8e090fad45"/>
+</p>
+<p>
+Click more choices then click use a different account 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/3e1dce01-7608-47e6-bdf9-e48a73acd8f4"/>
+</p>
+<p>
+Now type mydomain.com\jane_admin then the password is Password1 then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/bc113c76-8db9-4504-9b7a-dc1e3918b5ae"/>
+</p>
+<p>
+Next click yes to connect to the VM
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/85e0f5b0-72b5-49c4-9eaf-489d53e09d45"/>
+</p>
+<p>
+Now you will see the Cilent-1 VM loading as jane doe 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/88f0493d-c56e-4fd2-b13a-6a12170c3e64"/>
+</p>
+<p>
+Next right click the windows icon then click system 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/6407b46d-9953-456f-ad88-cb61bb9bf7f2"/>
+</p>
+<p>
+Next click Remote Desktop 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/83179131-dce0-42b4-aa5f-ab239c64e11a"/>
+</p>
+<p>
+Now click Select users that can remotely access this PC
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/756760a0-9da9-4b38-bb5b-442fa24ff787"/>
+</p>
+<p>
+Next click add 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/80910d23-635e-4f77-8bf5-9217a6db30b9"/>
+</p>
+<p>
+Type domain users then click check names 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/1fd5e59e-34b0-4fc2-bb12-a76c9338ef3d"/>
+</p>
+<p>
+You will see the name changed to CAPS with a underscore then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/50bd24fb-9321-4000-8890-afe5ae5962f9"/>
+</p>
+<p>
+Next click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9daedf6e-ae64-4cd5-bf3d-95d27e2e0f4e"/>
+</p>
+<p>
+Another way to get to Users and Computers is to click the windows icon on the bottom left. Next click Windows Administrative Tools then click Active Directory Users and Computers
+</p>
+<br />
