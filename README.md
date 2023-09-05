@@ -661,3 +661,44 @@ Now once you are in the DC-1 VM let Server Manager load on the screen
 Next click Tools on the top right then go to Active Directory Users and Computers 
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9e37bf8b-9612-411c-b3e4-bce96821898e"/>
+</p>
+<p>
+Next click on mydomain.com folder on the left side 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/aa9f7abb-1250-475c-aa8b-0df5dde626af"/>
+</p>
+<p>
+Next right click anywhere and go to new then to organizational unit 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/2da9a029-87ec-4608-a92a-275ac7cc3cd5"/>
+</p>
+<p>
+Next type _EMPLOYEES then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/7563f4fb-a7c8-4bd4-9f52-0d527c214e4a"/>
+</p>
+<p>
+Now go back to mydomain.com and right click anywhere again, go to new then to organizational unit 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/1d9d210a-741a-440d-a029-7af26c750663"/>
+</p>
+<p>
+Next type ADMINS then click ok 
+</p>
+<br />
