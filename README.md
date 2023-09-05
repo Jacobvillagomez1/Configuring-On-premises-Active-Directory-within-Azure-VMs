@@ -524,4 +524,140 @@ Once the process finishes click close
 <p>
 Next click the caution symbol near manage on the top right 
 </p>
-<br />ds
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/067a661f-29a8-471c-a362-82202bb2f9f0"/>
+</p>
+<p>
+Next click Promote this server to a domain controller 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/c709abb1-f85a-46d6-8552-bdb246034825"/>
+</p>
+<p>
+Click add a new forest then type mydomain.com then click next. {NOTE} you can type anything you want just have a .com at the end of it please copy it down to your notepad to not forget 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/f4d0e028-a2fa-442d-8316-ee45eaf005b6"/>
+</p>
+<p>
+Next type the password in for this my password will be Password1 then click next 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/ed56b7fe-3dd9-4a4a-80d0-3732919bff90"/>
+</p>
+<p>
+Next click next
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/16fed491-7bf9-45b0-984c-97b5e5f769c8"/>
+</p>
+<p>
+Next click next
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/0789fc2f-61fd-458f-b1ab-0c4aad4da4b1"/>
+</p>
+<p>
+Next click next
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/b69dff26-9ddd-4e9d-8aa3-bebb91b9dce0"/>
+</p>
+<p>
+Next click next
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/2dff13dc-20a0-4c9b-97f8-a96fe1b753a1"/>
+</p>
+<p>
+Next click install to finish creating the domain controller 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/851bac16-2857-49a4-97f2-718b3a4470ed"/>
+</p>
+<p>
+Then let the installation process finish 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/88a0dbde-5c1c-48f9-8cbe-5fe5ff4a1cb9"/>
+</p>
+<p>
+You might see the image above for Reconnecting dont click cancel let the VM bandwidth connect back only if it doesnt kick you out properly then click cancel 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/9018461c-8592-46d2-ab77-a721142545c3"/>
+</p>
+<p>
+Go back to Azure and click DC-1 copy the public IP 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/ef0abb63-54b6-420a-97bb-4fed450a9871"/>
+</p>
+<p>
+Next type Remote Desktop Conenction and open the app 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/922279f1-9ef3-47ad-a3f8-3d85294b2e80"/>
+</p>
+<p>
+Now since we made DC-1 under another name click more choices then click use a different account 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/a03503ad-020a-4d26-ad3e-df3ff017c439"/>
+</p>
+<p>
+Next tpye in mydomain.com\labuser for the username and the password is Password1 then click ok 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/cbbfdea3-7b3a-4483-925d-c33f49d4c9ce"/>
+</p>
+<p>
+Next click yes to log into the VM {NOTE} if it doesnt work the first time try again to log in. If it still doesn't let you then close Remote Desktop Connection and do the process again 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/d8131e1f-b25f-4d04-b65b-3a53905c75fb"/>
+</p>
+<p>
+Now once you are in the DC-1 VM let Server Manager load on the screen 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/143027686/bf8ab7eb-20cd-4f00-9b75-d8a30c299d4f"/>
+</p>
+<p>
+Next click Tools on the top right then go to Active Directory Users and Computers 
+</p>
+<br />
