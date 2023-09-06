@@ -36,7 +36,31 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Go to Server Manager to add roles and features
 - Create a Active Directory Domain Services
 - Promote the server to a domain controller and create a new forest
-- Log back into DC-1 VM
+- Log back into DC-1 VM by using mydomian.com\labuser
+- In DC-1 go to tools, and go to Active Directory Users and Computers
+- Create a new organizational unit folder called _EMPLOYEES
+- Create another new organizational unit folder called _ADMINS
+- Create new user in ADMINS folder
+- Put new user in Domain Admins then logoff of DC-1
+- Log back into DC-1 under Admin account
+- Go back to Cilent-1 and rename this pc under a new domain, but will recieve an error
+- Copy DC-1 Privite NIC IP then paste in Cilent-1 DNS Servers
+- Restart Cilent-1 VM
+- Log into Cilent-1 VM using Remote Desktop Connection
+- Rename this PC again in Cilent-1 VM
+- Change the Domain name to user Admins
+- Restart VM again
+- Log into Cilent-1 VM under admin account using Remote Desktop Connection
+- Use Remote Desktop to let Doamin Users log into the account
+- Go back to DC-1 VM and go to the Users folder to see both labuser and admin account in Domain Users
+- Run Windows Powershell ISE as administrator
+- Create a new file and run script for creating 2000 users
+- Go to _EMPLOYEES folder and grab one's display name
+- Logoff of Cilent-1 VM then log back into Cilent-1 VM under user you picked
+- Logoff Cilent-1 as random user
+- Grab another random user Display name
+- Log back into Cilent-1 VM with new user but mistype password to get kicked out of account
+- Go to DC-1 VM and manually reset the password or unlock the account
 
 <h2>Deployment and Configuration Steps</h2>
 
