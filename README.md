@@ -27,10 +27,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Resource Group
+- Create Virtual Machine Windows Server Datacenter
+- Create Virtual Machine Windows 
+- Use Remote Dektop Connection to log into Cilent-1 VM
+- Grab the Private IP of DC-1 to do a endless ping on Cilent-1 VM in Command Prompt
+- Go to DC-1 to load wf.msc to allow the ping to occur in inbound rules
+- Go to Server Manager to add roles and features
+- Create a Active Directory Domain Services
+- Promote the server to a domain controller and create a new forest
+- Log back into DC-1 VM
 
 <h2>Deployment and Configuration Steps</h2>
 
