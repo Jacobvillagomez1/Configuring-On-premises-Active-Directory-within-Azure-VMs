@@ -51,7 +51,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Change the Domain name to user Admins
 - Restart VM again
 - Log into Cilent-1 VM under admin account using Remote Desktop Connection
-- Use Remote Desktop to let Doamin Users log into the account
+- Use Remote Desktop to let Domain Users log into the account
 - Go back to DC-1 VM and go to the Users folder to see both labuser and admin account in Domain Users
 - Run Windows Powershell ISE as administrator
 - Create a new file and run script for creating 2000 users
